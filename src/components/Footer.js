@@ -8,6 +8,8 @@ function Footer(props) {
     margin: "auto",
     fontSize: "1.5em",
     width: "100%",
+    position: "sticky",
+    top: "100%",
     marginTop: "20px",
     background: "#b4b59a",
   }

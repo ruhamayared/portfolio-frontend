@@ -37,9 +37,29 @@ button {
   display: inline-block;
   font-size: 1.3em;
   border-radius: 7%;
+  margin-bottom: 5px;
 }
 
 .projects {
   display: grid;
-	place-items: center
+	place-items: center;
+  border-bottom: 3px dashed;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.home {
+  margin: 200px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-size: 1.6em;
+  padding: 20px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
 }
