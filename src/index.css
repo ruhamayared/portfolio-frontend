@@ -63,3 +63,7 @@ button {
 .description {
   text-align: center;
 }
+
+.about {
+  height: 81vh;
+}

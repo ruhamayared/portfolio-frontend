@@ -4,7 +4,7 @@ function About(props) {
   const about = useLoaderData()
 
   return (
-    <div>
+    <div className="about">
       <h2 className="aboutName">{about.name}</h2>
       <img
         style={{

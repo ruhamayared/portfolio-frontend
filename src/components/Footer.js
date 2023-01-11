@@ -18,8 +18,16 @@ function Footer(props) {
     <footer>
       <nav style={navStyle}>
         <div>Email: ruhamayared1@gmail.com</div>
-        <div>Linkedin</div>
-        <div>GitHub</div>
+        <div>
+          <a href="https://www.linkedin.com/in/ruhama-yared/" target="_blank" rel="noreferrer">
+            Linkedin
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/ruhamayared" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        </div>
       </nav>
     </footer>
   )
